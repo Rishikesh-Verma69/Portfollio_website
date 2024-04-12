@@ -1,0 +1,77 @@
+body{
+    background-image: url("img/chair.jpg");
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    overflow:auto;
+}
+
+header{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+.navbar{
+    padding: 0%;
+    margin: 2%;
+    border-radius: 50px;
+    list-style-type: none;
+    width:auto;
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.594);
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.navbar li a, li {
+    padding: 0.5%;
+    font-size: x-large;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding-left: 1%;
+    
+}
+
+.navbar li a:hover{
+    transition: 0.7s;
+    color: rgb(0, 255, 213);
+}
+
+.self{
+    border-radius: 50%;
+    float: left;
+}
+
+#image{
+    width: 80%;
+}
+
+#main li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 3%;
+}
+
+#paragraph{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    float: inline-end;
+    width: 70%;
+    color: rgb(255, 136, 0);
+    -webkit-text-stroke-width: 1px;
+    
+}
+#cotacts p{
+    position: inherit;
+    width: 50%;
+    
+}
+
+#info{
+    color: #1437d0;
+}
